@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game!!</title>
+    <script src="/js/tailwindcss.js"></script>
+    <link rel="stylesheet" href="/css/page.css">
+    <style>
+        .hero-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            background-color: #2d3748;
+        }
+        .searchbox {
+            position: absolute;
+            transform: translate(-50%, 0%);
+            width: 80%;
+            max-width: 700px;
+            padding: 0.75rem;
+            font-size: 1.2rem;
+            border-radius: 25px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        .searchbox:focus {
+            background-color: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+        }
+        .app-card-container {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .app-card {
+            background-color: #1a202c;
+            border-radius: 25px;
+            padding: 15px;
+            width: 180px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid #4a5568;
+        }
+        .app-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+        .app-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .app-card h3 {
+            color: white;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .app-card p {
+            color: #cbd5e0;
+            font-size: 0.875rem;
+        }
+        footer {
+            background-color: #2d3748;
+            color: #cbd5e0;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 font-sans">
+            <a href="/game/games/snow">雪合戦</a>
+            <a href="/game/games/paper">paper.io</a>
+            <a href="/game/games/drive">車のやつ</a>
+            <a href="/game/games/aiothello">オセロ</a>
+            <a href="/game/games/snowrider">そりすべり</a>
+            <a href="/game/games/2048">2048</a>
+            <a href="/game/games/keisan">計算</a>
+            <a href="/game/games/taipingu">タイピング</a>
+            <a href="/game/games/quiz">クイズ</a>
+            <a href="/game/games/block">ブロック崩し</a>
+            <a href="/game/games/tetris">テトリス</a>
+            <a href="/game/games/"></a>
+        </div>
+    </section>
+  </div>
+    <footer>
+        <p>♪( ´▽｀)</p>
+    </footer>
+</body>
+</html>
